@@ -1,0 +1,125 @@
+Candidates	Full name					Chromosome	SNPs		Localisation	OA Phenotype	Phenotype		Pathway					Variant											
+GDF5		growth differentiation factor 5	 		20q11.22	rs143383	20:35438203	Knee / Hip	polygenic		bone development			5'-UTR										found in the GWAS	
+		belongs to the TGF-beta family														chondrogenesis											not found in the GWAS	
+																			skeletal development 												
+																			
+																			
+MGP		matrix Gla protein				12p12.3		rs1800801	12:14885854 	Hand		polygenic		Vitamine K 				5'-UTR (promoter)											
+		belongs to the osteocalcin/matrix Gla family 												Endochondral ossification												
+																			joint degeneration												
+																			chondrogenesis												
+																			osteogenesis												
+																			
+																			
+ALDH1A2		aldehyde dehydrogenase 1 family member A2	15q21.3		rs3204689	15:57954604	Hand		polygenic		lipid metabolism			3'-UTR 											
+		belongs to the aldehyde dehydrogenase family							Knee					skeletal development 												
+																			joint degeneration												
+																			neuronal function and development 												
+																			
+																			
+COLGALT2	collagen beta(1-O)galactosyltransferase 2	1q25.3		rs11583641 	1:183937111 	Hip		polygenic		collagen fribril organization		intronic 											
+		belongs to the glycosyltransferase 25 family																		
+																			
+																			
+TGFB1		transforming growth factor beta 1		19q13.2		rs75621460	19:41327879 	Hip and/or Knee	monogenic		joint degeneration			intronic (enhancer)											
+		belongs to the TGF-beta family														skeletal development 												
+																			neuronal function and development 												
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			

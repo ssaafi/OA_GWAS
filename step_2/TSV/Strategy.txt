@@ -1,0 +1,65 @@
+Research on PubMed					Results	from October 2022													Exclusion criteria				Inclusion criteria 		
+	< Osteoarthritis ATAC-Seq >			13															animal samples					Kind of sample	
+	< Osteoarthritis Dnase-Seq >			0															transfection					muscle
+	< Osteoarthritis Hi-C >				0															rheumatic arthritis				human or cell culture
+	< Osteoarthritis H3K27ac Chip-Seq >		1															other disease					synovium
+	< Osteoarthritis  Chip-Seq >			16															blood samples					osteoblast/clast
+																						fibroblasts					chondrocytes
+ 	< Cartilage ATAC-Seq >				17															adipocytes					stem cell (for growth development)
+	< Cartilage DNase-Seq >				0															heart muscle					
+	< Cartilage Hi-C >				0															health status unknown					
+	< Cartilage H3K27ac Chip-Seq >			3																				
+	< Cartilage  Chip-Seq >				29																				
+																									
+	< Synovium ATAC-Seq >				7		24-10-2022																		
+	< Synovium Hi-C >				0		24-10-2022												Histone Markers for OA						
+	< Synovium Dnase-Seq >				0		24-10-2022													H3K27ac		mark of active enhancers and promotor			
+	< Synovium H3K27ac Chip-Seq >			2		24-10-2022													H3K27me3		higher expression in OA			https://doi.org/10.1038/s41419-022-04985-5
+	< Synovium Chip-Seq >				8		24-10-2022													H3K4me3		mark for active promotor			doi: 10.1038/s41467-019-10439-y
+																							H3K4me1		mark of poised enhancers 			https://doi.org/10.1038/s41598-022-16951-4
+							96															all confirmed in OA review --> https://doi.org/10.1038/s41598-022-16951-4					
+																									
+Research on GEO datasets																		Results		Date									
+	ATAC		"((""homo sapiens""[Organism] AND ""bone""[All Fields]) AND ""atac seq""[All Fields]) AND ""healthy""[All Fields]"				14		24-10-2022									
+			"((""homo sapiens""[Organism] AND ""bone""[All Fields]) AND ""atac seq""[All Fields]) AND ""osteoarthritis""[All Fields]"			2		24-10-2022			Data type						
+	Dnase		"((""homo sapiens""[Organism] AND ""bone""[All Fields]) AND ""dnase seq""[All Fields]) AND ""healthy""[All Fields]"				0		24-10-2022				ATAC-seq (bam file)					
+			"((""homo sapiens""[Organism] AND ""bone""[All Fields]) AND ""dnase seq""[All Fields]) AND ""osteoarthritis""[All Fields]"			0		24-10-2022				Dnase-Seq (bam file)					
+	Hi-C		"((""homo sapiens""[Organism] AND ""bone""[All Fields]) AND ""hi c""[All Fields]) AND ""healthy""[All Fields]"					3		24-10-2022				H3K27ac Chip-Seq (bam file)					
+			"((""homo sapiens""[Organism] AND ""bone""[All Fields]) AND ""hi c""[All Fields]) AND ""osteoarthritis""[All Fields]"				0		24-10-2022				Hi-C data					
+	Chip-Seq		"((""homo sapiens""[Organism] AND ""bone""[All Fields]) AND ""chip seq""[All Fields]) AND ""healthy""[All Fields]"			87		24-10-2022				gene expression data					
+			"((""homo sapiens""[Organism] AND ""bone""[All Fields]) AND ""chip seq""[All Fields]) AND ""osteoarthritis""[All Fields]"			0		24-10-2022				gene annotations (bed file)					
+	ATAC		"((""homo sapiens""[Organism] AND ""muscle""[All Fields]) AND ""atac seq""[All Fields]) AND ""healthy""[All Fields]"				7		02-11-2022				chromosome annotations (bed file)					
+			"((""homo sapiens""[Organism] AND ""muscle""[All Fields]) AND ""atac seq""[All Fields]) AND ""osteoarthritis""[All Fields]"			0		02-11-2022									
+	Dnase		"((""homo sapiens""[Organism] AND ""muscle""[All Fields]) AND ""dnase seq""[All Fields]) AND ""healthy""[All Fields]"				3		02-11-2022									
+			"((""homo sapiens""[Organism] AND ""muscle""[All Fields]) AND ""dnase seq""[All Fields]) AND ""osteoarthritis""[All Fields]"			0		02-11-2022									
+	Hi-C		"((""homo sapiens""[Organism] AND ""muscle""[All Fields]) AND ""hi c""[All Fields]) AND ""healthy""[All Fields]"				0		02-11-2022			QC Encode (https://www.encodeproject.org/data-standards/)						
+			"((""homo sapiens""[Organism] AND ""muscle""[All Fields]) AND ""hi c""[All Fields]) AND ""osteoarthritis""[All Fields]"				0		02-11-2022				ATAC		read length prior to any trimming should be a minimum of 45 base pairs			
+	Chip-Seq		"((""homo sapiens""[Organism] AND ""muscle""[All Fields]) AND ""chip seq""[All Fields]) AND ""healthy""[All Fields]"			81		02-11-2022						"Sequencing may be paired- or single-ended, as long as sequencing type is specified and paired sequences are indicated"			
+			"((""homo sapiens""[Organism] AND ""muscle""[All Fields]) AND ""chip seq""[All Fields]) AND ""osteoarthritis""[All Fields]"			0		02-11-2022						"All Illumina platforms are supported for use in the uniform pipeline, though data from different platforms should be processed separately; colorspace (SOLiD) reads are not supported. "			
+														197																"Experiments should have two or more biological replicates. Assays performed using EN-TEx samples may be exempted due to limited availability of experimental material, but at least two technical replicates are required. "			
+																														"Each replicate should have 15 million non-duplicate, non-mitochondrial aligned reads for single-end sequencing and 50 million for paired-ended sequencing (i.e. 15 million fragments, regardless of sequencing run type). "			
+																									
+																												DNAse		read length should be a minimum of 36 base pairs.			
+Research on Musculoskeletal knowledge portal	november																							"There is no post-trimming read length minimum, but effective fragment mapping drops significantly at kmer-lengths of less than 22 base pairs."			
+	ATAC-Seq	3																											"Sequencing may be paired- or single-end, as long as sequencing type is specified and read pairs are indicated. Paired-end sequencing is preferred. "			
+	Dnase		1																											"Experiments should have two or more biological replicates, isogenic or anisogenic"			
+	Hi-C		0																							
+	Chip-Seq	0																									Hi-C		minimum of 2 billion total reads			
+			4	total																										"minimum of 50% unique reads in Hi-C contacts and ideally have a percentage over 60%. A low percentage of unique reads in Hi-C contacts indicates a failure in the restriction, fill-in, or ligation steps of the protocol"			
+																														minimum of 15% of unique reads in long range contacts			
+																														a maximum of 40% of unique total duplicates. A high percentage of unique total duplicates indicates low molecular complexity			
+Research on ENCODE				december																					
+	ATAC-Seq	2																									Chip		"For broad-peak histone experiments, each replicate should have 45 million usable fragments."			
+	Dnase		12																											"Experiments should have two or more biological replicates, isogenic or anisogenic. "			
+	Hi-C		0																											"The read length should be a minimum of 50 base pairs, though longer read lengths are encouraged; the pipeline can process read lengths as low as 25 base pairs. Sequencing may be paired- or single-ended."			
+	Chip-Seq	0																											Replicates should match in terms of read length and run type. 			
+	RNA		21																							
+																												RNA (bulk)	The read length should be a minimum of 50 base pairs.			
+Research on Roadmap				december																							"Alignment files are mapped to the GRCh38, hg19, or mm10 sequences"			
+	ATAC-Seq	0																											"Sequencing may be paired- or single-end, as long as sequencing type is specified and read pairs are indicated."			
+	Dnase		1																											Experiments should have two or more replicates. Assays performed using EN-TEx samples may be exempted due to limited availability of experimental material.			
+	Hi-C		0																											"Each replicate should have 30 million aligned reads, although older projects aimed for 20 million reads. Best practices for ENCODE2 RNA-seq experiments have been outlined here."			
+	Chip-Seq	23																			
+	RNA-Seq		1																			
+																									
+																						
