@@ -10,7 +10,7 @@
 We are planning to run the data by tissue and divide healthy and OA samples.
 We are also looking into the literature on how other groups applied the model.
 
-More information will follow [here](https://github.com/ssaafi/OA_GWAS/blob/main/step_3/strategy.md).
+More information can be found [here](https://github.com/ssaafi/OA_GWAS/blob/main/step_4/strategy.md).
 
 **2. Protocol 1**
 
