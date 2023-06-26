@@ -14,7 +14,7 @@ The ABC model, along with publicly available chromatin, histone, and expression 
 
 **[Step 3](https://github.com/ssaafi/OA_GWAS/tree/main/step_3)**: Preparing the data (14 weeks)
 
-**[Step 4](https://github.com/ssaafi/OA_GWAS/tree/main/step_4)**: Running the model (ongoing)
+**[Step 4](https://github.com/ssaafi/OA_GWAS/tree/main/step_4)**: Running the model (14 weeks)
 
 ## Relevant links
 
