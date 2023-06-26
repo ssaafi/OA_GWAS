@@ -8,22 +8,22 @@
 **1. Collecting tissue**
 
 In order to collect the relevant tissue for OA, we established inclusion and exclusion criteria on the kind of tissue and data type we are looking for to run the model.
-We used PubMed, the Musculoskeletal knowledge portal, Encode and Roadmap to browse through the datasets. 
+We used PubMed, the Musculoskeletal Knowledge portal, Encode, and Roadmap to browse through the datasets. 
 
-You can find the [criteria](https://github.com/ssaafi/internship22-23/blob/main/step_2/criteria.md) and the [collecting strategy and results](https://github.com/ssaafi/internship22-23/blob/main/step_2/collection%20strategy.md) here.
+You can find the [criteria](https://github.com/ssaafi/OA_GWAS/blob/main/step_2/criteria.md) and the [collecting strategy and results](https://github.com/ssaafi/OA_GWAS/blob/main/step_2/collection%20strategy.md) here.
 
-For more detailed information, check this [file](https://github.com/ssaafi/internship22-23/blob/main/step_2/TSV/Strategy.txt) and this [one](https://github.com/ssaafi/internship22-23/blob/main/step_2/TSV/Overview%20data.txt).
+For more detailed information, check this [file](https://github.com/ssaafi/OA_GWAS/blob/main/step_2/TSV/Strategy.txt) and this [one](https://github.com/ssaafi/OA_GWAS/blob/main/step_2/TSV/Overview%20data.txt).
 
 **2. Annotation**
 
-Annotations files are already available on the GiHub page of the ABC model. For our analysis, we need to establish a list of GWAS SNPs linked to OA for the fine mapping step. 
-You can find more infornation [here](https://github.com/ssaafi/internship22-23/blob/main/step_2/annotations.md).
+Annotation files are already available on the GitHub page of the ABC model. For our analysis, we need to establish a list of GWAS SNPs linked to OA for the fine-mapping step. 
+You can find more information [here](https://github.com/ssaafi/OA_GWAS/blob/main/step_2/annotations.md).
 
 **3. Control list** 
 
 Why? To be sure the model is running correctly, we established a (+) list of relevant SNPs that should score high according to previous papers.  
 We are also including a (-) list of genes that shouldn't appear in our results.
 
-You can find the [Control list](https://github.com/ssaafi/internship22-23/blob/main/step_2/%20control%20list.md) here.
+You can find the [Control list](https://github.com/ssaafi/OA_GWAS/blob/main/step_2/control%20list.md) here.
 
-For more detailed information, check this [file](https://github.com/ssaafi/internship22-23/blob/main/step_2/TSV/Control%20list.txt).
+For more detailed information, check this [file](https://github.com/ssaafi/OA_GWAS/blob/main/step_2/TSV/Control%20list.txt).
