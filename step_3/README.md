@@ -8,17 +8,4 @@ The raw data available in GEO for all datasets are in FastQ. To run the model we
 So we need to clean, do the QC, map, sort, and index the raw data.
 More work but the advantage is that all samples will be standardized. 
 
-**1. QC**
-
-
-
-**2. ATAC-DNase-Chip**
-
-
-
-**3. RNA**
-
-
-
-
-**4. HiC**
+You can find in this folder the datasets per tissue and the QC for each sample.
