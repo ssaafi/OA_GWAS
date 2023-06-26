@@ -44,10 +44,6 @@ The final positive control list includes:
 **2. Criteria for (-) control list**
 
 We are looking for SNPs unrelated to OA, which, therefore, shouldn't appear in the results.
-We are asking people in our group to working on ovary cancer and other diseases to give us a list of genes strongly associated with those diseases. 
-
-The list includes:
-
--- *in progress* --
+This includes: PDL3 (gene associated with Alzheimer)
 
 
